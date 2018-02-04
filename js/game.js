@@ -64,7 +64,10 @@ function Game(){
             this.board[this.index(this.coin.x,this.coin.y)].classList.remove("coin");
             this.score++;
             document.querySelector("#score strong").innerText = this.score;
-            this.coin = new Coin();
+            do{
+                this.coin = new Coin();
+            }
+            while(this.furry.x === this.coin.x && this.furry.y === this.coin.y);
             this.showCoin();
         }
     };
