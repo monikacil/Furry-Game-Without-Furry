@@ -78,6 +78,11 @@ document.addEventListener('keydown', function(event){
     game.turnFurry(event);
 });
 
+var playAgain = document.querySelector("#over button");
+playAgain.addEventListener("click", function(){
+    window.location.reload();
+});
+
 
 /***/ }),
 /* 1 */
