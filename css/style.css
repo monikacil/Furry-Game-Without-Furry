@@ -74,7 +74,7 @@ section#score div {
   background-size: cover;
 }
 
-section#over {
+section#over,.startSection {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -85,22 +85,25 @@ section#over {
   background-color: rgba(252, 135, 89, 0.6);
 }
 
-section#over div {
+section#over div, .startSection div{
   display: inline-block;
   width: 100%;
   text-align: center;
   margin-top: 200px;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 70px;
   font-weight: bolder;
   color: #321A02;
+}
+.startSection div{
+  margin-top: 50px;
 }
 
 .invisible {
   display: none;
 }
 
-.playAgain {
+.button {
   width: 200px;
   height: 60px;
   font-size: 20px;
@@ -117,7 +120,7 @@ section#over div {
   text-shadow: 0 1px 0 #fedd9b;
 }
 
-.playAgain:hover {
+.button:hover {
   background: #fec455;
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fec455), to(#fecd61));
   background: -moz-linear-gradient(#fec455, #fecd61);
@@ -127,7 +130,7 @@ section#over div {
   box-shadow: inset 0 0 0 1px #fedb98;
 }
 
-.playAgain:active {
+.button:active {
   background: #f9bd4f;
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9bd4f), to(#f0b64d));
   background: -moz-linear-gradient(#f9bd4f, #f0b64d);

@@ -82,6 +82,11 @@ function Game(){
             return true;
         }
         return false;
+    };
+    this.clearBoard = function(){
+        for(var i = 0; i < this.board.length; i++){
+            this.board[i].className = "";
+        }
     }
 }
 

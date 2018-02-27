@@ -1,0 +1,26 @@
+{
+  "name": "furry_game",
+  "version": "1.0.0",
+  "description": "FurryGame",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monikacil/Furry-Game-Without-Furry.git"
+  },
+  "keywords": [
+    "Furry"
+  ],
+  "author": "Monika Cilińska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monikacil/Furry-Game-Without-Furry/issues"
+  },
+  "homepage": "https://github.com/monikacil/Furry-Game-Without-Furry#readme"
+}
