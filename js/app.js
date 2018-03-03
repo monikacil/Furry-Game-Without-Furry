@@ -10,7 +10,6 @@ startGame.addEventListener("click", function(){
     game.showFurry();
     game.showCoin();
     game.startGame();
-
 });
 
 document.addEventListener('keydown', function(event){

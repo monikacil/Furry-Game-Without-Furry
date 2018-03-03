@@ -79,6 +79,8 @@ function Game(){
             showOver.classList.remove("invisible");
             var showScore = document.querySelector("#over span");
             showScore.innerText = this.score;
+            var playAgain = document.querySelector("#over button");
+            playAgain.focus();
             return true;
         }
         return false;

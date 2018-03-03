@@ -45,26 +45,26 @@ section#score div {
   font-size: 20px;
 }
 .furry-left {
-  background-image: url('../images/pacman.png');
+  background-image: url('../images/pacman.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   transform: scaleX(-1);
 }
 .furry-right {
-  background-image: url('../images/pacman.png');
+  background-image: url('../images/pacman.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .furry-top {
-  background-image: url('../images/pacman.png');
+  background-image: url('../images/pacman.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   transform: rotateZ(-90deg);
 }
 .furry-bottom {
-  background-image: url('../images/pacman.png');
+  background-image: url('../images/pacman.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   transform: rotateZ(90deg);
 }
 .coin {
@@ -136,5 +136,8 @@ section#over div, .startSection div{
   background: linear-gradient(#f9bd4f, #f0b64d);
   border: solid 1px #a77f35;
   box-shadow: inset 0 10px 15px 0 #dba646;
+}
+.button:focus {
+  outline: none;
 }
 
